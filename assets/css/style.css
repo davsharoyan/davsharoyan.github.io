@@ -2,13 +2,15 @@
 	box-sizing: border-box;
 	padding: 0;
 	margin: 0;
+	font-family: 'Cedarville Cursive', cursive;
 	
 }
 body {
 	background-color: #180113;
 }
 h2, p, li, a, h3, h4, h5,h1, span {
-	color: #70016E;
+	color: white;
+	text-shadow: 5px 5px 5px #70016E;
 }
 .container{
 	max-width: 1600px;
