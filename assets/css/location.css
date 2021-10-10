@@ -4,14 +4,19 @@
 	margin: 0;
 	
 }
+h2, p, li, a {
+	color: #70016E;
+}
 .container{
 	max-width: 1600px;
 	width: 100%;
 	padding: 0px 230px;
 	margin: 0 auto;
 }
+body {
+	background-color: #180113;
+}
 .header{
-	background-image: url("../images/bg1.png");
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
@@ -22,30 +27,21 @@
 	align-items: center;
 	justify-content: space-between;
 }
-.menu h2{
-	color: white;
-}
 .menu ul{
 	list-style: none;
 	display: flex;
-	color: white;
 }
 .menu ul li{
 	margin: 0px 25px;
 }
 .menu ul a{
 	text-decoration: none;
-	color: white;
 }
 .menu>a{
 	text-decoration: none;
 	padding: 14px 35px;
 	background-color: #C9453B;
-	color: white;
 	border-radius: 5px;
-}
-hr{
-	margin: 20px 0px;
 }
 .yerevan-title{
 	margin: 50px 0px;
@@ -213,6 +209,7 @@ hr{
 		display: flex;
 		align-items: flex-start;
 		flex-direction: column;
+		display: none;
 	}
 
 
@@ -221,6 +218,9 @@ hr{
 	
 	.menu>ul{
 		display: none;
+	}
+	.menu-mobile {
+		display: block;
 	}
 	.menu-mobile ul li a{
 		text-decoration: none;

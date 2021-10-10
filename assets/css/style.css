@@ -4,6 +4,12 @@
 	margin: 0;
 	
 }
+body {
+	background-color: #180113;
+}
+h2, p, li, a, h3, h4, h5,h1, span {
+	color: #70016E;
+}
 .container{
 	max-width: 1600px;
 	width: 100%;
@@ -11,13 +17,8 @@
 	margin: 0 auto;
 }
 
-*{
-	margin: 0;
-	padding: 0;
-	box-sizing: border-box;
-}
  .slideer{
-	height: 100vh;
+	 margin: 50px 0px;
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -108,11 +109,10 @@
 
 
 .header{
-	background-color: purple;
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
-	padding: 47px 0px 244px;
+	padding: 50px 0px;
 }
 .menu{
 	display: flex;
@@ -120,13 +120,9 @@
 	justify-content: space-between;
 	transition-duration: 0.8s;
 }
-.menu h2{
-	color: white;
-}
 .menu ul{
 	list-style: none;
 	display: flex;
-	color: white;
 		transition-duration:0.8s;
 }
 .menu ul li{
@@ -134,21 +130,15 @@
 }
 .menu ul a{
 	text-decoration: none;
-	color: white;
 }
 .menu>a{
 	text-decoration: none;
 	padding: 14px 35px;
 	background-color: #C9453B;
-	color: white;
 	border-radius: 5px;
 }
-
-section p{
-	color: #7c7c7c;
-}
 .popular{
-	padding: 140px 0px;
+	padding: 50px 0px;
 }
 .popular-p{
 	text-align: center;
@@ -241,14 +231,6 @@ section p{
 }
 .star span{
 	margin: 0px 15px 0px 5px;
-	color: black;
-}
-.day{
-	margin: 8px 0px;
-	color: black;
-}
-.black{
-	color: black;
 }
 .news{
 	margin-top: 143px;
@@ -293,7 +275,7 @@ section p{
 	margin-bottom: 30px;
 	transition-duration: 1s;
 	border-radius: 20px;
-	box-shadow: 1px 1px 1px silver;
+	box-shadow: 1px 1px 1px #9b0198;
 }
 .china img{
 	width: 49%;
@@ -306,8 +288,8 @@ section p{
 }
 .china:hover{
 	transform: translateX(50px);
-	border: 1px dotted silver;
-	box-shadow: 8px 8px 8px silver;
+	border: 1px dotted #7c007a;
+	box-shadow: 8px 8px 8px #70016E;
 }
 .footer{
 	padding: 70px 0px 78px;
@@ -319,7 +301,6 @@ section p{
 	flex-direction: column;
 }
 .footer li{
-	color: black;
 	list-style: none;
 	margin: 10px 0px;
 }
@@ -357,13 +338,11 @@ section p{
 	text-decoration: none;
 	padding: 12px 32px;
 	background-color: #C9453B;
-	color: white;
 	margin: 10px;
 	border-radius: 5px;
 }
 .footer-travland a{
 	text-decoration: none;
-	color: black;
 }
 .services{
 	display: flex;
@@ -373,7 +352,6 @@ section p{
 }
 .services a{
 	text-decoration: none;
-	color: black;
 }
 .legal{
 	display: flex;
@@ -383,7 +361,6 @@ section p{
 }
 .legal a{
 	text-decoration: none;
-	color: black;
 }
 .footer-full>div{
 	display: flex;
@@ -394,7 +371,6 @@ section p{
 }
 .menu-mobile ul{
 		list-style: none;
-		color: white;
 		transform: translateX(-400px);
 		transition-duration: 0.8s;
 	}
@@ -403,6 +379,7 @@ section p{
 		display: flex;
 		align-items: flex-start;
 		flex-direction: column;
+		display: none;
 	}
     
 	
@@ -503,6 +480,9 @@ section p{
 	
 	.menu>ul{
 		display: none;
+	}
+	.menu-mobile {
+		display: block;
 	}
 	.menu-mobile ul li a{
 		text-decoration: none;

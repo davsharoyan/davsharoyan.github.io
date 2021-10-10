@@ -20,3 +20,7 @@ span.addEventListener("click",()=>{
 
 	
 })
+
+$(function() {
+	$('#datetimepicker1').datetimepicker();
+});
