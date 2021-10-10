@@ -133,12 +133,6 @@ h2, p, li, a, h3, h4, h5,h1, span {
 .menu ul a{
 	text-decoration: none;
 }
-.menu>a{
-	text-decoration: none;
-	padding: 14px 35px;
-	background-color: #C9453B;
-	border-radius: 5px;
-}
 .popular{
 	padding: 50px 0px;
 }
@@ -220,6 +214,7 @@ h2, p, li, a, h3, h4, h5,h1, span {
 	padding: 4px;
 	margin: 0px 35px;
 	transition-duration: 2s;
+	cursor: pointer;
 }
 .spec-img{
 	width: 100%;
@@ -325,10 +320,12 @@ h2, p, li, a, h3, h4, h5,h1, span {
 	justify-content: space-between;
 }
 .footer-input input{
-	border: 1px solid silver;
 	height: 44px;
-	padding: 10px 20px;
+	padding: 10px;
+	background-color: #21012C;
+	border-radius: 5px;
 	outline: none;
+	border: none;
 }
 .footer-input h3{
 	margin-bottom: 30px;
@@ -337,17 +334,18 @@ h2, p, li, a, h3, h4, h5,h1, span {
 	display: flex;
 	flex-direction: column;
 }
-.inp{
-	display: flex;
-	justify-content: space-between;
-	align-items: center;
+.footer-input input::placeholder {
+	color: white;
 }
-.inp a{
+form button{
 	text-decoration: none;
 	padding: 12px 32px;
-	background-color: #C9453B;
+	background-color: #21012C;
+	border: 1px solid #70016E;
 	margin: 10px;
+	color: white;
 	border-radius: 5px;
+	cursor: pointer;
 }
 .footer-travland a{
 	text-decoration: none;

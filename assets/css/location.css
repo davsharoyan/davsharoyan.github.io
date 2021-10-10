@@ -7,6 +7,9 @@
 h2, p, li, a {
 	color: #70016E;
 }
+img {
+	border-radius: 20px;
+}
 .container{
 	max-width: 1600px;
 	width: 100%;
