@@ -151,7 +151,7 @@ h2, p, li, a, h3, h4, h5,h1, span {
 }
 .yerevan{
 	width: 31.5%;
-	border: 1px solid silver;
+	border: 1px solid #70016E;
 	text-align: center;
 	border-radius: 18px;
 	transition-duration: 1s;
@@ -174,7 +174,7 @@ h2, p, li, a, h3, h4, h5,h1, span {
 }
 .kuala-lumpur{
 	width: 31.5%;
-	border: 1px solid silver;
+	border: 1px solid #70016E;
 	text-align: center;
 	margin: 0px 31px;
 	border-radius: 18px;
@@ -214,7 +214,7 @@ h2, p, li, a, h3, h4, h5,h1, span {
 	justify-content: space-between;
 }
 .spec-gallery>div{
-	border: 1px solid silver;
+	border: 1px solid #70016E;
 	border-radius: 10px;
 	padding: 4px;
 	margin: 0px 35px;
@@ -251,7 +251,7 @@ h2, p, li, a, h3, h4, h5,h1, span {
 	width: 49%;
 }
 .spec-gallery>div:hover{
-	background-color: #1AA43F;
+	background-color: #2C013B;
 }
 .malaysia img{
 	width: 100%;
@@ -270,14 +270,17 @@ h2, p, li, a, h3, h4, h5,h1, span {
 .china-content{
 	width: 49%;
 	margin-left: 2%;
+	display: flex;
+	flex-direction: column;
+	gap: 30px;
 }
 .china{
 	display: flex;
 	align-items: center;
-	margin-bottom: 30px;
 	transition-duration: 1s;
 	border-radius: 20px;
 	box-shadow: 1px 1px 1px #9b0198;
+	overflow: hidden;
 }
 .china img{
 	width: 49%;
@@ -290,8 +293,10 @@ h2, p, li, a, h3, h4, h5,h1, span {
 }
 .china:hover{
 	transform: translateX(50px);
-	border: 1px dotted #7c007a;
 	box-shadow: 8px 8px 8px #70016E;
+}
+.china-card {
+	height: 170px;
 }
 .footer{
 	padding: 70px 0px 78px;
